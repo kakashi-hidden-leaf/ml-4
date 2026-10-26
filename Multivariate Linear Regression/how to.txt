@@ -201,3 +201,59 @@ Script file par right click karke "Run Python > Run Python File in Terminal" kar
 Terminal me output print hoga aur ek ke baad ek graph pop up honge. Har graph dekhne ke baad uski window close (X) karte jaana taaki aage ka code execute ho sake.   
 PDF
 + 1
+
+
+
+
+Dataset Description
+The following variables are used in the experiment:
+Variable| Type| Description
+Area_sqft| Independent| Area of the house in square feet
+Bedrooms| Independent| Number of bedrooms
+Bathrooms| Independent| Number of bathrooms
+Age_Years| Independent| Age of the house in years
+Distance_City_km| Independent| Distance of the house from the city
+Price_Lakhs| Dependent| Price of the house in lakhs
+In this experiment:
+Independent Variables (X): Area_sqft, Bedrooms, Bathrooms, Age_Years, Distance_City_km
+Dependent Variable (Y): Price_Lakhs
+Therefore, the model predicts: Multiple House Attributes → House Price Theory
+Multivariate Linear Regression, also called Multiple Linear Regression, is a supervised machine 
+learning technique used to predict a continuous dependent variable using two or more independent 
+variables.
+The general equation is:
+Y = β₀ + β₁X₁ + β₂X₂ + ... + βₙXₙ
+Where:
+- Y = Predicted dependent variable
+- X₁, X₂, ..., Xₙ = Independent variables
+- β₀ = Intercept
+- β₁, β₂, ..., βₙ = Regression coefficients
+For this experiment:
+Price = β₀ + β₁(Area) + β₂(Bedrooms) + β₃(Bathrooms) + β₄(Age) + β₅(Distance)
+The model learns the values of the coefficients from the training data and uses them to predict the 
+price of new houses.
+Procedure
+1. Create a CSV dataset containing house-related attributes and their prices.
+2. Create a Python project in Visual Studio Code.
+3. Store the CSV dataset and Python program in the same folder.
+4. Install the required Python libraries.
+5. Import the required libraries.
+6. Load the dataset using Pandas.
+7. Display the first few records of the dataset.
+8. Analyze the dataset using statistical information.
+9. Check the dataset for missing values.
+10. Calculate the correlation between the variables.
+11. Display the correlation using a heatmap. 12. Separate the independent variables and dependent variable.
+13. Divide the dataset into training and testing sets using an 80:20 ratio.
+14. Create a Multivariate Linear Regression model.
+15. Train the model using the training dataset.
+16. Obtain the intercept and regression coefficients.
+17. Generate the regression equation.
+18. Predict house prices using the testing dataset.
+19. Compare actual and predicted prices.
+20. Calculate MAE, MSE, RMSE and R² Score.
+21. Plot Actual vs Predicted values.
+22. Perform residual/error analysis.
+23. Provide new house attributes to the trained model.
+24. Predict the price of the new house.
+25. Analyze the results and conclude the experiment.
