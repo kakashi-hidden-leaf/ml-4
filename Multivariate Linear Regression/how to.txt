@@ -203,7 +203,20 @@ PDF
 + 1
 
 
-
+Aim
+To implement Multivariate Linear Regression using Python and Scikit-learn to predict a 
+continuous dependent variable using multiple independent variables and evaluate the performance 
+of the developed regression model.
+Tools and Technologies Required
+• Software
+- Python 3.x
+- Visual Studio Code (VS Code)
+• Python Libraries
+- Pandas – for loading and manipulating the dataset
+- NumPy – for numerical calculations
+- Matplotlib – for data visualization
+- Seaborn – for correlation heatmap
+- Scikit-learn – for implementing Linear Regression and evaluating the model
 
 Dataset Description
 The following variables are used in the experiment:
